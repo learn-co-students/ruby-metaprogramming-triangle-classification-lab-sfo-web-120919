@@ -27,7 +27,7 @@ class Triangle
         raise TriangleError
       #   raise TriangleError 
       # rescue TriangleError => obj
-      #   return obj.message2
+      #   obj.message2
       end
     elsif x == 0 || y == 0 || z == 0 || x == 0.0 || y == 0.0 || z == 0.0
       begin 
